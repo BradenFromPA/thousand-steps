@@ -1,0 +1,19 @@
+{
+  "name": "thousand-steps",
+  "version": "1.0.0",
+  "description": "geo signin sign in info information trails thousandsteps thousand steps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradenFromPA/thousand-steps.git"
+  },
+  "author": "Braden Hancock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BradenFromPA/thousand-steps/issues"
+  },
+  "homepage": "https://github.com/BradenFromPA/thousand-steps#readme"
+}
