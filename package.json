@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BradenFromPA/thousand-steps/issues"
   },
-  "homepage": "https://github.com/BradenFromPA/thousand-steps#readme"
+  "homepage": "https://github.com/BradenFromPA/thousand-steps#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
