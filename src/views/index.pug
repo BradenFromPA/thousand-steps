@@ -1,7 +1,11 @@
 doctype html
 html
     include ../includes/head/head.pug
+    style
+        include index.css
     body
         include ../includes/navigation/nav.pug
-        h1 Root Content
+        
+        div(class='main-container')
+
         include ../includes/footer/footer.pug
