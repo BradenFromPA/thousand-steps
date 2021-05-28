@@ -1,0 +1,31 @@
+doctype html
+html
+    include ../../../includes/head/head.pug
+    style
+        include signin.css
+    body
+        include ../../../includes/navigation/nav.pug
+
+        div(class='main-container')
+            div
+                div(class='form-container')
+                    form(action='/log/signin', method='post')
+                        div(class='field-name-first')
+                            label(for='name-first') First Name
+                            input(id='name-first' type='text' name='name-first')
+                        div(class='field-name-last')
+                            label(for='name-last') Last Name
+                            input(id='name-last' type='text' name='name-last')
+                        div(class='field-location-country')
+                            label(for='location-country') Country
+                            input(id='location-country' type='text' name='location-country')
+                        div(class='field-location-state')
+                            label(for='location-state') State or Territory
+                            input(id='location-state' type='text' name='location-state')
+                        div(class='field-location-city')
+                            label(for='location-city') City
+                            input(id='location-city' type='text' name='location-city')
+                        div(class='submit-btn')
+                            button() Submit
+
+        include ../../../includes/footer/footer.pug

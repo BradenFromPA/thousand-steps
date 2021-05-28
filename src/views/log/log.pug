@@ -7,5 +7,14 @@ html
         include ../../includes/navigation/nav.pug
 
         div(class='main-container')
+            div(class='sign-in-flex')
+                div(class='sign-in-container')
+                    h2 Digital Sign in
+                    button(onclick='location.href = "/log/signin"') Sign in
+            div(class='user-container')
+                h2 Vistors
+                div
+                    p(class='name')= name
+                    p(class='town')= town
 
         include ../../includes/footer/footer.pug
